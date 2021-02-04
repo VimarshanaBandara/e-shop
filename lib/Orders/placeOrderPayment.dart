@@ -4,6 +4,8 @@ import 'package:e_shop/Store/storehome.dart';
 import 'package:e_shop/Counters/cartitemcounter.dart';
 import 'package:e_shop/cardpayment/paymentPage.dart';
 import 'package:e_shop/main.dart';
+import 'package:e_shop/payment_encryption/card_main.dart';
+import 'package:e_shop/payment_encryption/encryption%20main.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -69,7 +71,7 @@ class _PaymentPageState extends State<PaymentPage> {
                       ),
                       onTap: ()
                       {
-                        Route route = MaterialPageRoute(builder: (_) => CardHomePage());
+                        Route route = MaterialPageRoute(builder: (_) => EncryptHome());
                         Navigator.pushReplacement(context, route);
                       },
                     )

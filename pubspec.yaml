@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  clipboard: ^0.1.2+8
 
   cupertino_icons: ^0.1.2
   cloud_firestore: ^0.13.2+1
@@ -24,6 +25,8 @@ dependencies:
   intl:
   firebase_core: ^0.4.3
   credit_card: ^0.1.8
+  encrypt: ^4.0.3
+  string_validator: ^0.1.4
 
 
 
@@ -45,3 +48,13 @@ flutter:
     - images/login.png
     - images/admin.png
     - images/cash.png
+    - assets/images/calender.png
+    - assets/images/card_cvv.png
+    - assets/images/visa.png
+    - assets/images/jcb.png
+    - assets/images/verve.png
+    - assets/images/discover.png
+    - assets/images/american_express.png
+    - assets/images/dinners_club.png
+    - assets/images/mastercard.png
+    - images/bg.jpg
